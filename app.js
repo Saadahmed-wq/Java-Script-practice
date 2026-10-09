@@ -99,11 +99,56 @@ console.log( student);
 
 
 
-let  phone = " Samsung"
-console.log( phone);
-phone = "tecno"
+// let  phone = " Samsung"
+// console.log( phone);
+// phone = "tecno"
 
 
 
-let car; ""
-console.log( car);
+// let car; ""
+// console.log( car);
+
+
+// // const
+
+
+// const folder = "E commerce"
+// folder = "untitled"
+// console.log(folder);
+
+
+// // declare without value 
+// const website ;
+// console.log();
+
+
+// string
+
+let studentName = "Uzair"
+console.log(studentName);
+ 
+console.log(typeof( (studentName)));
+
+
+// number
+let number = 27
+console.log(number);
+console.log(typeof( (number)));
+
+// Boolean
+let isAlive = false
+console.log( isAlive);
+console.log(typeof(isAlive));
+
+// undefined
+
+let book;
+console.log(book);
+console.log(typeof(book));
+
+// null
+let pen = null
+console.log(pen);
+console.log(typeof(pen));
+
+
