@@ -152,3 +152,61 @@ console.log(pen);
 console.log(typeof(pen));
 
 
+
+
+
+// string indexing
+ let language  = "HTML is a programming language"
+console.log(language);
+
+console.log( language[6]);
+
+console.log( language.length);
+
+
+
+// console.log(language[subject.length-1]);
+
+
+let app = "facebook"
+
+console.log(app);
+
+let upercase = app.toUpperCase()
+console.log(app.toUpperCase());
+
+// console.log(app.toUpperCase());
+
+
+
+let file = "HOME"
+console.log(file);
+console.log(file.toLowerCase());
+
+
+
+let web = "Our food is so fresh and tasty"
+console.log(web);
+
+console.log( web.includes("healthy"));
+
+
+
+let text = "hi there"
+console.log(text);
+console.log( text.indexOf("s"));
+
+
+
+let para = "my hobbies are not that much"
+console.log(para);
+console.log(para.slice(3,8));
+
+
+
+let animal = "cows are good"
+console.log(animal);
+console.log(animal.replace("cow","goat"));
+console.log(animal.replace("are","is"));
+
+

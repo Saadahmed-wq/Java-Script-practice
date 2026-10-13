@@ -1,3 +1,0 @@
-studentName
-studentName
-student_name
