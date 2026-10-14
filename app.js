@@ -210,3 +210,62 @@ console.log(animal.replace("cow","goat"));
 console.log(animal.replace("are","is"));
 
 
+let laptop = "  dell"
+console.log(laptop.trim());
+
+
+let copy = "Urdu"
+console.log(copy.charAt(3));
+
+
+
+let mouse = "mice"
+console.log(mouse.startsWith("m"));
+
+
+let computer = "acer"
+console.log(computer);
+console.log(computer.endsWith("r"));
+
+
+let message = "HTML is a programming language"
+console.log(message.split("a"));
+
+
+let dress = "black"
+console.log(dress.repeat(3));
+
+
+// Arithmetic Operators
+
+let num1 = 3
+let num2 = 6
+let result = num1 + num2
+console.log(result);
+
+
+let num3 = 10
+let num4 = 4 
+console.log(num3 - num4);
+
+
+let num5 = 15
+let num6  = 2
+console.log(num5 * num6);
+
+
+let num7 = 4
+let num8 = 10
+console.log(num7 / num8);
+
+
+let num9 = 12
+let num10 = 3
+console.log(num9 % num10);
+
+
+let num11 = 12
+let num12 = 2
+console.log(num11 ** num12);
+
+
