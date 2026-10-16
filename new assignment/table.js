@@ -1,0 +1,11 @@
+let table1 = 2
+document.write(`${2} * 1 = ${table1*1} <br>`);
+document.write(`${2}*  2 = ${table1*2} <br>`);
+document.write(`${2} * 3 = ${table1*3} <br>`);
+document.write(`${2} * 4 = ${table1*4} <br>`);
+document.write(`${2} * 5 = ${table1*5} <br>`);
+document.write(`${2} * 6 = ${table1*6} <br>`);
+document.write(`${2} * 7 = ${table1*7} <br>`);
+document.write(`${2} * 8 = ${table1*8} <br>`);
+document.write(`${2} * 9 = ${table1*9} <br>`);
+document.write(`${2}* 10 = ${table1*10} <br>`);
