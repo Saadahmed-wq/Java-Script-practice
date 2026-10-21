@@ -38,6 +38,10 @@
 // console.log(name2);
 
 
+
+
+
+
 let bill = prompt("total bill")
 let persons = prompt ("total persons")
 

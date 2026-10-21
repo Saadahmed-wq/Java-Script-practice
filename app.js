@@ -269,3 +269,40 @@ let num12 = 2
 console.log(num11 ** num12);
 
 
+
+
+
+
+
+// Comparison operators
+
+// let marks = 35
+
+// console.log(marks == false ); //true
+// console.log(marks === false);  // false
+// console.log(marks != 35);  // false 
+// console.log(marks !== "35");  //true
+// console.log(marks > 35);   //false
+// console.log(marks < 30);    //false
+// console.log(marks >= 30);   //true
+// console.log(marks <= 35);    //true
+
+
+
+// let marks1 = "35"
+// console.log(marks1 < "30" );
+
+
+
+let number1 = 3
+     
+if(number1 % 2 == 0 ){alert("it is an even number")}
+
+else{alert("it is not an odd number")}
+
+
+
+
+
+
+
