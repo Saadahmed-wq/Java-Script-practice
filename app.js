@@ -294,11 +294,78 @@ console.log(num11 ** num12);
 
 
 
-let number1 = 3
+// let number1 = 3
      
-if(number1 % 2 == 0 ){alert("it is an even number")}
+// if(number1 % 2 == 0 ){alert("it is an even number")}
 
-else{alert("it is not an odd number")}
+// else{alert("it is not an odd number")}
+
+
+
+let signal = prompt("input a color")
+
+if(signal === "red"){
+    alert("Stop")
+}
+else if(signal ===" yellow"){
+    alert("Get ready")
+}
+else if(signal === "green"){
+    alert("Go")
+}
+else{
+    alert("invalid Signal")
+}
+
+
+
+
+let marks = +prompt("Enter your marks")
+
+typeof("marks")
+console.log(typeof("marks"));
+
+
+if(marks > 100){
+    alert("Invaild marks")
+}
+else if(marks >= 90 ){
+    alert("A+")
+}
+
+else if(marks >= 80){
+    alert("A")
+}
+else if(marks >= 70){
+    alert("B")
+}
+else if(marks >= 60){
+    alert("C")
+}
+else if(marks >= 50){
+    alert("D")
+}
+else if(marks == false){
+    alert("Enter any number")
+}
+
+
+else{alert("Fail")}
+
+
+
+
+// let username = prompt("Enter your username")
+// let password = prompt("Enter password")
+
+// if(){}
+
+
+
+
+
+
+
 
 
 
