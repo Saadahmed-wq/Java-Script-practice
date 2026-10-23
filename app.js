@@ -302,28 +302,25 @@ console.log(num11 ** num12);
 
 
 
-let signal = prompt("input a color")
+// let signal = prompt("input a color")
+// if(signal === "red"){
+//     alert("Stop")
+// }
+// else if(signal ===" yellow"){
+//     alert("Get ready")
+// }
+// else if(signal === "green"){
+//     alert("Go")
+// }
+// else{
+//     alert("invalid Signal")
+// }
 
-if(signal === "red"){
-    alert("Stop")
-}
-else if(signal ===" yellow"){
-    alert("Get ready")
-}
-else if(signal === "green"){
-    alert("Go")
-}
-else{
-    alert("invalid Signal")
-}
+//    // Marks
+// let marks = +prompt("Enter your marks")
 
-
-
-
-let marks = +prompt("Enter your marks")
-
-typeof("marks")
-console.log(typeof("marks"));
+// typeof("marks")
+// console.log(typeof("marks"));
 
 
 if(marks > 100){
@@ -349,16 +346,21 @@ else if(marks == false){
     alert("Enter any number")
 }
 
-
 else{alert("Fail")}
 
+// log in code
+let username = prompt("enter your username")
+let password =  +prompt("enter your password")
+
+if(username === "admin"){
+    if(password === 1234 ){
+        alert("Login successful")
+    }
+    else("incorrect password")
+}
+else("invalid username")
 
 
-
-// let username = prompt("Enter your username")
-// let password = prompt("Enter password")
-
-// if(){}
 
 
 
