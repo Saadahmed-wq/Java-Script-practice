@@ -426,7 +426,43 @@ console.log(num11 ** num12);
 // 20. !false && true || !true = true?
 
 
-console.log(  !false && true || !true );
+// console.log(  !false && true || !true );
+
+
+
+
+
+
+
+let phones = ["iphone", "samsung" , "tecno" , "google" , "pixel", "infinix", "mobile", "itel", "vgotel", "nokia"]
+
+console.log(phones);
+
+console.log(phones[4]);
+console.log(phones[8]);
+console.log(phones[11]);
+phones[4]= "laptop"
+console.log(phones);
+
+console.log(phones.length);
+
+console.log(phones[phones.length-1]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
