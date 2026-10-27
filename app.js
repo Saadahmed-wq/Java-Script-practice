@@ -441,22 +441,26 @@ console.log(phones);
 console.log(phones[4]);
 console.log(phones[8]);
 console.log(phones[11]);
-phones[4]= "laptop"
+phones[7]= "laptop"
 console.log(phones);
 
 console.log(phones.length);
 
 console.log(phones[phones.length-1]);
 
+phones.length = 0
+console.log(phones);
 
 
 
 
 
+let bikes = ["Honda",["CD", ["h2r" , "seventycc"]], "Suzuki", ["Unique"], "Bionic"]
 
 
+console.log(bikes[1][0]);
 
-
+console.log(bikes[3]);
 
 
 
