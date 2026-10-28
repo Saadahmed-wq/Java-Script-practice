@@ -51,11 +51,11 @@
 // console.log(Age);
 
 
-  
+
 // reassign
 
 var Class = " web dev"
-console.log( Class);
+console.log(Class);
 
 
 Class = "computer class"
@@ -68,14 +68,14 @@ var group = "Polo group"
 console.log(group);
 
 var group = "sports group"
-console.log( group);
+console.log(group);
 
 
 
 
 // declare
 var student;
-console.log( student);
+console.log(student);
 
 
 
@@ -126,42 +126,42 @@ console.log( student);
 
 let studentName = "Uzair"
 console.log(studentName);
- 
-console.log(typeof( (studentName)));
+
+console.log(typeof ((studentName)));
 
 
 // number
 let number = 27
 console.log(number);
-console.log(typeof( (number)));
+console.log(typeof ((number)));
 
 // Boolean
 let isAlive = false
-console.log( isAlive);
-console.log(typeof(isAlive));
+console.log(isAlive);
+console.log(typeof (isAlive));
 
 // undefined
 
 let book;
 console.log(book);
-console.log(typeof(book));
+console.log(typeof (book));
 
 // null
 let pen = null
 console.log(pen);
-console.log(typeof(pen));
+console.log(typeof (pen));
 
 
 
 
 
 // string indexing
- let language  = "HTML is a programming language"
+let language = "HTML is a programming language"
 console.log(language);
 
-console.log( language[6]);
+console.log(language[6]);
 
-console.log( language.length);
+console.log(language.length);
 
 
 
@@ -188,26 +188,26 @@ console.log(file.toLowerCase());
 let web = "Our food is so fresh and tasty"
 console.log(web);
 
-console.log( web.includes("healthy"));
+console.log(web.includes("healthy"));
 
 
 
 let text = "hi there"
 console.log(text);
-console.log( text.indexOf("s"));
+console.log(text.indexOf("s"));
 
 
 
 let para = "my hobbies are not that much"
 console.log(para);
-console.log(para.slice(3,8));
+console.log(para.slice(3, 8));
 
 
 
 let animal = "cows are good"
 console.log(animal);
-console.log(animal.replace("cow","goat"));
-console.log(animal.replace("are","is"));
+console.log(animal.replace("cow", "goat"));
+console.log(animal.replace("are", "is"));
 
 
 let laptop = "  dell"
@@ -245,12 +245,12 @@ console.log(result);
 
 
 let num3 = 10
-let num4 = 4 
+let num4 = 4
 console.log(num3 - num4);
 
 
 let num5 = 15
-let num6  = 2
+let num6 = 2
 console.log(num5 * num6);
 
 
@@ -295,7 +295,7 @@ console.log(num11 ** num12);
 
 
 // let number1 = 3
-     
+
 // if(number1 % 2 == 0 ){alert("it is an even number")}
 
 // else{alert("it is not an odd number")}
@@ -434,41 +434,102 @@ console.log(num11 ** num12);
 
 
 
-let phones = ["iphone", "samsung" , "tecno" , "google" , "pixel", "infinix", "mobile", "itel", "vgotel", "nokia"]
+// let phones = ["iphone", "samsung" , "tecno" , "google" , "pixel", "infinix", "mobile", "itel", "vgotel", "nokia"]
 
-console.log(phones);
+// console.log(phones);
 
-console.log(phones[4]);
-console.log(phones[8]);
-console.log(phones[11]);
-phones[7]= "laptop"
-console.log(phones);
+// console.log(phones[4]);
+// console.log(phones[8]);
+// console.log(phones[11]);
+// phones[7]= "laptop"
+// console.log(phones);
 
-console.log(phones.length);
+// console.log(phones.length);
 
-console.log(phones[phones.length-1]);
+// console.log(phones[phones.length-1]);
 
-phones.length = 0
-console.log(phones);
-
-
-
-
-
-let bikes = ["Honda",["CD", ["h2r" , "seventycc"]], "Suzuki", ["Unique"], "Bionic"]
-
-
-console.log(bikes[1][0]);
-
-console.log(bikes[3]);
+// phones.length = 0
+// console.log(phones);
 
 
 
 
 
+// let bikes = ["Honda",["CD", ["h2r" , "seventycc"]], "Suzuki", ["Unique"], "Bionic"]
+
+
+// console.log(bikes[1][0]);
+
+// console.log(bikes[3]);
 
 
 
+
+
+let colors = ["black", "blue", "white"]
+console.log(colors);
+
+
+
+let numbers = [[2, 4], [6, 8], [10, 12]];
+console.log(numbers[1][1]);
+
+
+
+
+let subjects = [["Math", "English"], ["HTML", "JavaScript"]];
+console.log(subjects[1][1]);
+subjects[0] = "CSS"
+console.log(subjects);
+
+
+
+
+
+let math = [11, 22, 33, 44]
+console.log(math[2] = 99);
+console.log(math);
+
+
+
+let carts = [["Rice", "oil", "sugar"], ["pulse", "powder", "honey"]]
+console.log(carts[0][1]);
+
+
+
+
+
+
+// let employees = [["Daniyal", "danish", "abrar", "qadeer"], [30000, 45000, 50000, 25000] ]
+
+
+
+
+// console.log(employees[0][1]);
+// console.log(employees[1][2]);
+// console.log(employees[1][0]=35000);
+// employees[3]= "wahab"
+// console.log(employees);
+// console.log(employees.length);
+
+// console.log(employees);
+
+
+let employees = [["wahab", 35000], ["danish", 45000], ["daniyal", 50000], ["abrar", 25000]]
+
+
+console.log(employees[1][0]);
+console.log(employees[2][1]);
+console.log(employees[0][1]= 20000);
+employees[3][0]="huzaifa"
+console.log(employees.length);
+
+console.log(employees);
+
+
+
+let totalamount = employees[0][1] + employees[1][1] + employees[2][1] + employees[3][1]
+console.log(totalamount);
 
 
 
