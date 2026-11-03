@@ -497,32 +497,77 @@ console.log(totalamount);
 // Methods of Array
 
 
-let fruits = ["apple", "mango", "banana"]
+// let fruits = ["apple", "mango", "banana"]
 
-console.log(fruits.push("dates"));
-console.log(fruits);
-console.log(fruits.pop());
-console.log(fruits);
-
-
-
-let devices = ["phone", "laptop", "tablet"]
-
-console.log(devices.unshift("powerbank"));
-console.log(devices);
+// console.log(fruits.push("dates"));
+// console.log(fruits);
+// console.log(fruits.pop());
+// console.log(fruits);
 
 
-let removed = devices.shift();
-console.log(devices);
-console.log(removed);
+
+// let devices = ["phone", "laptop", "tablet"]
+
+// console.log(devices.unshift("powerbank"));
+// console.log(devices);
 
 
+// let removed = devices.shift();
+// console.log(devices);
+// console.log(removed);
 
 
 
 
 
 
+let menu = [["burger", "pizza"],["tea", "coffee"], ["cake", "ice cream"]
+]
+
+
+menu.unshift("sandwitch")
+console.log(menu);
+
+menu[2].pop()
+console.log(menu[2]);
+
+
+menu[3].push("brownie")
+console.log(menu[3]);
+
+menu.unshift("fries", "nuggets")
+console.log(menu);
+
+menu.pop()
+console.log(menu);
+
+console.log(menu);
+
+
+
+let bike = ["suzuki", "yamaha", "unique"]
+console.log(bike[1].includes("y"));
+
+
+let car3 = ["civic", "corolla"]
+console.log(car3[1].indexOf("c"));
+
+
+let devices1 = ["powerbank", "laptop", "keyboard"]
+
+console.log(
+devices1.splice(0, 2, "mango" ));
+
+
+
+let books1 = ["physics"]
+
+let book2 = ["chemistry"]
+
+let book3 = ["bio"]
+
+books1.concat(book2, book3)
+console.log(books1);
 
 
 
@@ -531,6 +576,18 @@ console.log(removed);
 
 
 
+// for(let i = 1; i <= 100; i++){
+//     console.log(i);
+    
+// }
+
+
+
+
+for(let i = 100; i >= 1; i--){
+    console.log(i);
+    
+}
 
 
 
@@ -538,7 +595,36 @@ console.log(removed);
 
 
 
+let vegetables = ["cucumber", "carrot", "potato"]
 
+
+for(let i = 0; i < vegetables.length; i++)
+{console.log(vegetables[i])
+
+}
+
+
+
+
+
+
+
+// let vegetables2 = ["onion", "mint", "curryleaves"]
+
+// for(let i = vegetables2.length-1; i <= 0; i--)
+// {
+//     console.log(vegetables2[i])
+    
+// }
+
+
+let vegetables2 = ["onion", "mint", "currryleaves"]
+
+for(let i = 2; i <= 0; i--){
+
+    console.log(vegetables2[i]);
+    
+}
 
 
 
