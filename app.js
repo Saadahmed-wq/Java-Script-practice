@@ -521,7 +521,7 @@ console.log(totalamount);
 
 
 
-let menu = [["burger", "pizza"],["tea", "coffee"], ["cake", "ice cream"]
+let menu = [["burger", "pizza"], ["tea", "coffee"], ["cake", "ice cream"]
 ]
 
 
@@ -556,7 +556,7 @@ console.log(car3[1].indexOf("c"));
 let devices1 = ["powerbank", "laptop", "keyboard"]
 
 console.log(
-devices1.splice(0, 2, "mango" ));
+    devices1.splice(0, 2, "mango"));
 
 
 
@@ -578,15 +578,15 @@ console.log(books1);
 
 // for(let i = 1; i <= 100; i++){
 //     console.log(i);
-    
+
 // }
 
 
 
 
-for(let i = 100; i >= 1; i--){
+for (let i = 100; i >= 1; i--) {
     console.log(i);
-    
+
 }
 
 
@@ -598,8 +598,8 @@ for(let i = 100; i >= 1; i--){
 let vegetables = ["cucumber", "carrot", "potato"]
 
 
-for(let i = 0; i < vegetables.length; i++)
-{console.log(vegetables[i])
+for (let i = 0; i < vegetables.length; i++) {
+    console.log(vegetables[i])
 
 }
 
@@ -614,22 +614,53 @@ for(let i = 0; i < vegetables.length; i++)
 // for(let i = vegetables2.length-1; i <= 0; i--)
 // {
 //     console.log(vegetables2[i])
-    
+
 // }
 
 
 let vegetables2 = ["onion", "mint", "currryleaves"]
 
-for(let i = 2; i <= 0; i--){
+for (let i = vegetables.length; i >= 0; i--) {
 
     console.log(vegetables2[i]);
-    
+
 }
 
 
 
 
+let car = {
+    name: "civic",
+    brand: "toyota",
+    year: 2007,
+    color: "white",
 
+    spareparts: {
+        part1: "handle",
+        part2: "tyre",
+        part3 : ["bonut", "seats"]
+    }
+
+
+}
+
+console.log(car);    //name
+car.number = 30045  // add
+console.log(car);
+console.log(car["brand"]);  // brand print 
+car.color = "black"   // updation 
+console.log(car);
+delete car.name        //delete
+console.log(car);
+
+
+car.users = ["shani", "ahad", "dani", "shahid"]    //added array in object
+console.log(car);
+
+delete car.users[2]      // deleted any array item
+console.log(car);
+
+console.log(car.spareparts.part3[0]);
 
 
 
