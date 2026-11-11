@@ -768,10 +768,35 @@ else{
 
 
 
+let students = [
+    { name: "Ali", marks: 85 },
+    { name: "Ahmed", marks: 45 },
+    { name: "Sara", marks: 72 },
+    { name: "Ayesha", marks: 30 },
+    { name: "Usman", marks: 90 }
+];
 
 
 
 
+for(let i = 0; i < students.length; i++){
+console.log(students[i].name);
+console.log(students[i].marks);
+
+
+
+}
+if(student >= 50){
+console.log("Pass");
+
+}
+else{
+    console.log("fail");
+    
+}
+
+
+let passed = 0;
 
 
 
