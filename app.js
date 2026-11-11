@@ -618,15 +618,6 @@ for (let i = 0; i < vegetables.length; i++) {
 // }
 
 
-let vegetables2 = ["onion", "mint", "currryleaves"]
-
-for (let i = vegetables.length; i >= 0; i--) {
-
-    console.log(vegetables2[i]);
-
-}
-
-
 
 
 let car = {
@@ -638,12 +629,11 @@ let car = {
     spareparts: {
         part1: "handle",
         part2: "tyre",
-        part3 : ["bonut", "seats"]
+        part3: ["bonut", "seats"]
     }
 
 
 }
-
 console.log(car);    //name
 car.number = 30045  // add
 console.log(car);
@@ -652,7 +642,6 @@ car.color = "black"   // updation
 console.log(car);
 delete car.name        //delete
 console.log(car);
-
 
 car.users = ["shani", "ahad", "dani", "shahid"]    //added array in object
 console.log(car);
@@ -668,9 +657,111 @@ console.log(car.spareparts.part3[0]);
 
 
 
+// Arry of objects
+
+
+let multiplethings = [
+    {
+        name: "ahmed",
+        age: 28,
+        phone: "samsung"
+    },
+
+    {
+        car: "bmw",
+        computer: "dell",
+        bike: 125
+
+    },
+
+    {
+        car2: "corolla",
+        computer2: "asus",
+        bike2: "suzuki"
+    },
+
+    { 
+        
+        name : "ali",
+        age: 28,
+        phone: "tecno"
+},
+
+ {
+        car3: "alto",
+        computer3: "hp",
+        bike3: "honda"
+    },
+
+]
+
+   console.log( Object.values(multiplethings[1]));
+   console.log(Object.entries(multiplethings[3]));
+   multiplethings[1].car = "civic"
+   console.log(multiplethings);
+
+   multiplethings.push(
+{
+    name5 :"saad",
+    carname : " mehran"
+}
+   ),
+
+   console.log(multiplethings);
+   
+      multiplethings.unshift(
+{
+   fruits : "banana",
+   drink : "apple juice"
+}
+   )
+console.log(multiplethings);
 
 
 
+
+// Tasks:
+// 1. Loop use karke har product ka total calculate karein.
+// 2. Total = price × quantity.
+// 3. Complete shopping bill calculate karein.
+// 4. Agar total bill 10000 se zyada ho to "Discount Available" print karein.
+// 5. Otherwise "No Discount" print karein.
+
+
+
+let cart = [
+    { name: "Shirt", price: 2000, quantity: 2 },
+    { name: "Shoes", price: 5000, quantity: 1 },
+    { name: "Watch", price: 3000, quantity: 2 }
+];
+
+
+
+let total;
+let totalbill = 0;
+
+for(let i = 0; i <= cart.length - 1; i++){
+
+total = cart[i].price * cart[i].quantity
+
+console.log(total);
+
+totalbill = totalbill + total
+
+}
+
+console.log(totalbill);
+
+
+
+if(totalbill >= 10000){
+console.log("discount available");
+
+}
+else{
+    console.log("no discount");
+    
+}
 
 
 
