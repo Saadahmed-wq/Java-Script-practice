@@ -801,3 +801,56 @@ let passed = 0;
 
 
 
+
+
+
+let student6 = {
+name1 : "saad",
+name2 : "ahmed",
+name3 : "wahab",
+
+}
+
+
+for(let key in student6){
+console.log(`${key} : ${student6[key]}`);
+
+}
+
+
+
+
+
+
+
+
+
+let bike4 = ["suzuki", "yamaha", "unique"]
+
+for(let index in bike4){
+console.log(bike4[index]);
+
+}
+
+
+
+
+
+
+let multiplethings3= [
+    {
+        name: "ahmed",
+        age: 28,
+        phone: "samsung"
+    },
+
+]
+
+
+
+
+
+for(let index in multiplethings3){
+console.log(multiplethings3[index].age);
+
+}
