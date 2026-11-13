@@ -801,7 +801,7 @@ let passed = 0;
 
 
 
-
+// for in loop with object
 
 
 let student6 = {
@@ -819,10 +819,7 @@ console.log(`${key} : ${student6[key]}`);
 
 
 
-
-
-
-
+// for in loop with array 
 
 
 let bike4 = ["suzuki", "yamaha", "unique"]
@@ -835,7 +832,7 @@ console.log(bike4[index]);
 
 
 
-
+// for in loop with array of object
 
 let multiplethings3= [
     {
@@ -847,10 +844,52 @@ let multiplethings3= [
 ]
 
 
-
-
-
 for(let index in multiplethings3){
 console.log(multiplethings3[index].age);
 
 }
+
+
+
+
+
+
+function addition (){
+    let num1 = 30
+    let num2 = 45
+
+   console.log(num1 + num2);
+   
+    
+}
+
+addition()
+
+
+
+
+
+function greet(a, b){
+    console.log(`hello ${a}`);
+    
+}
+greet("hammad")
+greet("ashir")
+
+
+
+
+
+
+
+function students8(a , b){
+        let names =  a 
+        let names2 = b
+
+return names
+
+}
+
+
+console.log(students8("saad","ahmed" ));
+
