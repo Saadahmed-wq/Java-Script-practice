@@ -680,14 +680,14 @@ let multiplethings = [
         bike2: "suzuki"
     },
 
-    { 
-        
-        name : "ali",
+    {
+
+        name: "ali",
         age: 28,
         phone: "tecno"
-},
+    },
 
- {
+    {
         car3: "alto",
         computer3: "hp",
         bike3: "honda"
@@ -695,26 +695,26 @@ let multiplethings = [
 
 ]
 
-   console.log( Object.values(multiplethings[1]));
-   console.log(Object.entries(multiplethings[3]));
-   multiplethings[1].car = "civic"
-   console.log(multiplethings);
+console.log(Object.values(multiplethings[1]));
+console.log(Object.entries(multiplethings[3]));
+multiplethings[1].car = "civic"
+console.log(multiplethings);
 
-   multiplethings.push(
-{
-    name5 :"saad",
-    carname : " mehran"
-}
-   ),
+multiplethings.push(
+    {
+        name5: "saad",
+        carname: " mehran"
+    }
+),
 
-   console.log(multiplethings);
-   
-      multiplethings.unshift(
-{
-   fruits : "banana",
-   drink : "apple juice"
-}
-   )
+    console.log(multiplethings);
+
+multiplethings.unshift(
+    {
+        fruits: "banana",
+        drink: "apple juice"
+    }
+)
 console.log(multiplethings);
 
 
@@ -740,13 +740,13 @@ let cart = [
 let total;
 let totalbill = 0;
 
-for(let i = 0; i <= cart.length - 1; i++){
+for (let i = 0; i <= cart.length - 1; i++) {
 
-total = cart[i].price * cart[i].quantity
+    total = cart[i].price * cart[i].quantity
 
-console.log(total);
+    console.log(total);
 
-totalbill = totalbill + total
+    totalbill = totalbill + total
 
 }
 
@@ -754,13 +754,13 @@ console.log(totalbill);
 
 
 
-if(totalbill >= 10000){
-console.log("discount available");
+if (totalbill >= 10000) {
+    console.log("discount available");
 
 }
-else{
+else {
     console.log("no discount");
-    
+
 }
 
 
@@ -779,20 +779,20 @@ let students = [
 
 
 
-for(let i = 0; i < students.length; i++){
-console.log(students[i].name);
-console.log(students[i].marks);
+for (let i = 0; i < students.length; i++) {
+    console.log(students[i].name);
+    console.log(students[i].marks);
 
 
 
 }
-if(student >= 50){
-console.log("Pass");
+if (student >= 50) {
+    console.log("Pass");
 
 }
-else{
+else {
     console.log("fail");
-    
+
 }
 
 
@@ -805,15 +805,15 @@ let passed = 0;
 
 
 let student6 = {
-name1 : "saad",
-name2 : "ahmed",
-name3 : "wahab",
+    name1: "saad",
+    name2: "ahmed",
+    name3: "wahab",
 
 }
 
 
-for(let key in student6){
-console.log(`${key} : ${student6[key]}`);
+for (let key in student6) {
+    console.log(`${key} : ${student6[key]}`);
 
 }
 
@@ -824,8 +824,8 @@ console.log(`${key} : ${student6[key]}`);
 
 let bike4 = ["suzuki", "yamaha", "unique"]
 
-for(let index in bike4){
-console.log(bike4[index]);
+for (let index in bike4) {
+    console.log(bike4[index]);
 
 }
 
@@ -834,7 +834,7 @@ console.log(bike4[index]);
 
 // for in loop with array of object
 
-let multiplethings3= [
+let multiplethings3 = [
     {
         name: "ahmed",
         age: 28,
@@ -844,8 +844,8 @@ let multiplethings3= [
 ]
 
 
-for(let index in multiplethings3){
-console.log(multiplethings3[index].age);
+for (let index in multiplethings3) {
+    console.log(multiplethings3[index].age);
 
 }
 
@@ -854,13 +854,13 @@ console.log(multiplethings3[index].age);
 
 
 
-function addition (){
+function addition() {
     let num1 = 30
     let num2 = 45
 
-   console.log(num1 + num2);
-   
-    
+    console.log(num1 + num2);
+
+
 }
 
 addition()
@@ -869,9 +869,9 @@ addition()
 
 
 
-function greet(a, b){
+function greet(a, b) {
     console.log(`hello ${a}`);
-    
+
 }
 greet("hammad")
 greet("ashir")
@@ -882,14 +882,149 @@ greet("ashir")
 
 
 
-function students8(a , b){
-        let names =  a 
-        let names2 = b
+function students8(a, b) {
+    let names = a
+    let names2 = b
 
-return names
+    return names
 
 }
 
 
-console.log(students8("saad","ahmed" ));
+console.log(students8("saad", "ahmed"));
+
+
+
+
+
+// for(let i = 0; i < students.length; i++){
+// console.log(students[i].name);
+// console.log(students[i].marks);
+
+
+
+
+
+
+
+let patients = [
+    {
+        name: "Ali",
+        age: 25,
+        disease: "Fever",
+        fee: 1000,
+        paid: true
+    },
+    {
+        name: "Sara",
+        age: 30,
+        disease: "Flu",
+        fee: 1500,
+        paid: false
+    },
+    {
+        name: "Ahmed",
+        age: 45,
+        disease: "Cough",
+        fee: 800,
+        paid: true
+    },
+    {
+        name: "Zain",
+        age: 55,
+        disease: "Headache",
+        fee: 1200,
+        paid: false
+    }
+];
+
+
+// TASK 1
+
+function displayfunctions() {
+
+    for (let i = 0; i <= patients.length - 1; i++) {
+
+        console.log(patients[i].name);
+        console.log(patients[i].age);
+        console.log(patients[i].disease);
+        console.log(patients[i].fee);
+        console.log(patients[i].paid);
+
+        if (patients[i].paid == true) {
+            console.log("Payment compeleted");
+
+        }
+        else {
+            console.log("payment pending");
+
+        }
+
+
+    }
+
+}
+displayfunctions()
+
+
+// TASK 2
+
+function findpatient(name) {
+
+    for (let i = 0; i <= patients.length - 1; i++) {
+        console.log(patients[i].name);
+
+
+
+        if (patients[i].name == name) {
+            console.log(patients[i].disease);
+
+        }
+        else {
+            console.log("Patient Not Found");
+
+        }
+    }
+
+}
+
+findpatient("sara")
+
+// TASK 3
+
+function checkSeniorPatients() {
+    for (let i = 0; i <= patients.length - 1; i++) {
+        console.log(patients[i].age);
+
+    if(patients[i].age >= 40){
+console.log("Senior Patient" );
+
+    }
+else{
+    console.log("Regular Patient");
+    
+}
+
+    }
+}
+
+checkSeniorPatients()
+
+
+// TASK 4
+
+function countPatients(){
+
+
+    let total = patients.length;
+
+     return  total 
+
+
+}
+countPatients()    
+
+let result2 = countPatients();
+
+console.log("countPatients: " + result);
 
