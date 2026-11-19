@@ -26,10 +26,24 @@
 
 
 
-document.write( " a) A heading stating Rules for naming  JS variables <br>" )  
-document.write( " b) Variables names can only contain Numbers, $,and Letters, _. For example $my_1stVariable <br>") 
+// document.write( " a) A heading stating Rules for naming  JS variables <br>" )  
+// document.write( " b) Variables names can only contain Numbers, $,and Letters, _. For example $my_1stVariable <br>") 
 
-document.write( " c) Variable must begin with, $, _, letters. For example: $name, _name, name. <br> " ) 
-document.write( " d) Variable names are case sensitive. <br>" ) 
-document.write( " e)Variable names should not be JS Reserve Keyworeds" ) 
+// document.write( " c) Variable must begin with, $, _, letters. For example: $name, _name, name. <br> " ) 
+// document.write( " d) Variable names are case sensitive. <br>" ) 
+// document.write( " e)Variable names should not be JS Reserve Keyworeds" ) 
+
+
+
+
+let a = 3;
+let b = 2;
+let result = a++ + ++b + a;
+
+result = 3 + 3 + 4;
+
+
+let a = 5;
+let b = 4;
+let result = ++a + b-- + a++;
 

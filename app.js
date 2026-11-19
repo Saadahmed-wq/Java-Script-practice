@@ -962,7 +962,6 @@ function displayfunctions() {
 
 
     }
-
 }
 displayfunctions()
 
@@ -1012,19 +1011,30 @@ checkSeniorPatients()
 
 
 // TASK 4
+;
 
 function countPatients(){
 
-
-    let total = patients.length;
-
-     return  total 
+let totalPatients = patients.length
+return totalPatients;
 
 
-}
-countPatients()    
+} 
+console.log(countPatients());
 
-let result2 = countPatients();
 
-console.log("countPatients: " + result);
+// let button = document.getElementById("btn")
 
+
+
+// button.addEventListener("dblclick", function(){
+
+// Swal.fire({
+//   title: "Button worked!",
+//   icon: "success",
+//   draggable: true
+// });
+
+    
+// }
+// )
