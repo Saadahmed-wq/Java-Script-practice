@@ -1038,3 +1038,15 @@ console.log(countPatients());
     
 // }
 // )
+
+
+let button2 =  document.getElementById("clickbtn")
+
+
+button2.addEventListener("click", function(){
+alert("It worked")
+
+
+
+}
+)
