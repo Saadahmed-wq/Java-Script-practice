@@ -52,10 +52,22 @@ let div = document.getElementById("hover")
 
 
 div.addEventListener("mouseover", function(){
-
+div.style.backgroundColor = "red"
 
 
 })
+
+
+
+let div2 = document.getElementById("hover")
+
+
+div2.addEventListener("mouseout", function(){
+div2.style.backgroundColor = "green"
+
+
+})
+
 
 
 

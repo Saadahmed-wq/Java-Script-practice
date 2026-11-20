@@ -1,0 +1,21 @@
+#increase {
+    background-color: green;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+
+#decrease {
+    background-color: red;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+
+
+#resetbtn {
+    border-radius: 20px;
+    padding: 10px;
+}

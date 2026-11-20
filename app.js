@@ -1050,3 +1050,28 @@ alert("It worked")
 
 }
 )
+
+
+
+
+
+
+let name1 = document.getElementById("name")
+
+
+name1.addEventListener("keydown", function(event){
+
+console.log(event.key);
+
+
+
+})
+
+
+
+
+
+
+
+
+
