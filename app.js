@@ -995,14 +995,14 @@ function checkSeniorPatients() {
     for (let i = 0; i <= patients.length - 1; i++) {
         console.log(patients[i].age);
 
-    if(patients[i].age >= 40){
-console.log("Senior Patient" );
+        if (patients[i].age >= 40) {
+            console.log("Senior Patient");
 
-    }
-else{
-    console.log("Regular Patient");
-    
-}
+        }
+        else {
+            console.log("Regular Patient");
+
+        }
 
     }
 }
@@ -1010,16 +1010,16 @@ else{
 checkSeniorPatients()
 
 
-// TASK 4
-;
+    // TASK 4
+    ;
 
-function countPatients(){
+function countPatients() {
 
-let totalPatients = patients.length
-return totalPatients;
+    let totalPatients = patients.length
+    return totalPatients;
 
 
-} 
+}
 console.log(countPatients());
 
 
@@ -1035,33 +1035,45 @@ console.log(countPatients());
 //   draggable: true
 // });
 
-    
+
 // }
 // )
 
 
-let button2 =  document.getElementById("clickbtn")
+// let button2 =  document.getElementById("clickbtn")
 
 
-button2.addEventListener("click", function(){
-alert("It worked")
-
-
-
-}
-)
+// button2.addEventListener("click", function(){
+// alert("It worked")
 
 
 
+// }
+// )
 
 
 
-let name1 = document.getElementById("name")
 
 
-name1.addEventListener("keydown", function(event){
 
-console.log(event.key);
+// let name1 = document.getElementById("name")
+
+
+// name1.addEventListener("keydown", function(event){
+
+// console.log(event.key);
+
+
+
+// })
+
+
+
+let cars3 = ["BMW", "toyota", "civic"]
+
+cars3.forEach((element, index) => {
+    console.log(`${element} : ${index}`);
+
 
 
 
@@ -1075,3 +1087,36 @@ console.log(event.key);
 
 
 
+let numbers4 = [10, 20, 30, 40, 50]
+
+
+numbers4.forEach((element) => {
+
+    console.log(element * 2);
+
+
+
+
+})
+
+
+
+
+
+
+
+let numbers5 = [10, 20, 30, 40, 50]
+
+
+let result5 = numbers4.map((element) => {
+
+    return element * 2
+
+
+
+
+})
+
+
+
+console.log(result5);
