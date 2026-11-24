@@ -1107,16 +1107,85 @@ numbers4.forEach((element) => {
 
 let numbers5 = [10, 20, 30, 40, 50]
 
-
 let result5 = numbers4.map((element) => {
 
     return element * 2
 
+})
+
+console.log(result5);
 
 
+
+
+
+
+
+// Synchronous method
+
+// console.log("hi there");
+// console.log("hello man");
+// console.log("It's tuesday");
+
+
+
+
+// Asynchronous method
+
+// console.log("hi there");
+// console.log("hello man");
+
+// setTimeout(() => {
+
+//     console.log("It's tuesday");
+
+// }, 4000)
+
+
+
+
+
+// let btn = document.getElementById("startbtn")
+
+
+// btn.addEventListener("click", function () {
+
+//     setTimeout(() => {
+
+//         for (let i = 1; i <= 10; i++) {
+
+//             console.log(i);
+
+//         }
+
+//     }, 2000)
+
+// })
+
+
+
+
+let btn = document.getElementById("startbtn")
+
+let count = 0
+
+btn.addEventListener("click", function () {
+
+
+
+    
+    setInterval(() => {
+
+        for (let i = 1; i <= 10; i++) {
+
+            console.log(i);
+
+        }
+
+    }, 2000)
 
 })
 
 
 
-console.log(result5);
+
