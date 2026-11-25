@@ -1173,9 +1173,14 @@ btn.addEventListener("click", function () {
 
 
 
-    
-    setInterval(() => {
 
+
+
+
+    let myinterval = setInterval(() => {
+
+
+        count++
         for (let i = 1; i <= 10; i++) {
 
             console.log(i);
@@ -1183,6 +1188,14 @@ btn.addEventListener("click", function () {
         }
 
     }, 2000)
+
+    if (count <= 5) {
+
+
+    } else {
+        clearInterval(myinterval)
+    }
+
 
 })
 
