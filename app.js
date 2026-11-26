@@ -1173,10 +1173,6 @@ btn.addEventListener("click", function () {
 
 
 
-
-
-
-
     let myinterval = setInterval(() => {
 
 
@@ -1187,18 +1183,70 @@ btn.addEventListener("click", function () {
 
         }
 
+        if (count < 2) {
+
+
+        } else {
+            clearInterval(myinterval)
+        }
+
+
     }, 2000)
 
-    if (count <= 5) {
 
 
-    } else {
-        clearInterval(myinterval)
-    }
+
+})
+
+// PROMISE Function
+
+let promise = new Promise((resolve, reject) => {
+
+
+    setTimeout(() => {
+        let fees = false
+
+        if (fees) {
+            resolve("Paid")
+        } else {
+            reject("Unpaid")
+        }
+
+    }, 3000)
+
 
 
 })
 
 
+promise.then((result) => {
+    console.log(result);
+})
+
+    .catch((error) => {
+        console.log(error);
+    })
+
+setTimeout(()=>{
+    console.log(promise);
+    
+}, 5000)
 
 
+
+// let tap = document.getElementById("button4")
+
+
+// tap.addEventListener("click", function(){
+
+// })
+
+
+
+// let promise1 = new Promise((resolve, reject)=>{
+
+//    setTimeout(()=>{
+
+//    })
+
+// })

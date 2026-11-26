@@ -6,14 +6,12 @@ let input2 = document.getElementById("display2")
 console.log(input2);
 
 
-
-
 // ADDITION BUTTON 
 
 let add = document.getElementById("plus")
 add.addEventListener("click", function () {
 
-    console.log("click");
+    // console.log("click");
 
     let inp1 = +input1.value
     let inp2 = +input2.value
@@ -77,10 +75,6 @@ clearbtn.addEventListener("click",function(){
 
 
 
-
-// let equal = document.getElementById("equalbtn")
-
-// equal.addEventListener("click", function())
 
 
 
