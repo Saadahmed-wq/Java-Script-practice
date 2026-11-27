@@ -1163,76 +1163,7 @@ console.log(result5);
 // })
 
 
-
-
-let btn = document.getElementById("startbtn")
-
-let count = 0
-
-btn.addEventListener("click", function () {
-
-
-
-    let myinterval = setInterval(() => {
-
-
-        count++
-        for (let i = 1; i <= 10; i++) {
-
-            console.log(i);
-
-        }
-
-        if (count < 2) {
-
-
-        } else {
-            clearInterval(myinterval)
-        }
-
-
-    }, 2000)
-
-
-
-
-})
-
-// PROMISE Function
-
-let promise = new Promise((resolve, reject) => {
-
-
-    setTimeout(() => {
-        let fees = false
-
-        if (fees) {
-            resolve("Paid")
-        } else {
-            reject("Unpaid")
-        }
-
-    }, 3000)
-
-
-
-})
-
-
-promise.then((result) => {
-    console.log(result);
-})
-
-    .catch((error) => {
-        console.log(error);
-    })
-
-setTimeout(()=>{
-    console.log(promise);
-    
-}, 5000)
-
-
+// TAP BUTTON ???????????????????????????????????????????????????
 
 // let tap = document.getElementById("button4")
 
@@ -1249,4 +1180,140 @@ setTimeout(()=>{
 
 //    })
 
+// })  ..................................................................
+
+
+
+
+let btn = document.getElementById("startbtn")
+
+let count = 0
+
+btn.addEventListener("click", function () {
+
+    let myinterval = setInterval(() => {
+
+
+        count++
+        for (let i = 1; i <= 10; i++) {
+
+            console.log(i);
+
+        }
+
+        if (count < 2) {
+
+        } else {
+            clearInterval(myinterval)
+        }
+
+    }, 2000)
+
+
+})
+
+// PROMISE Function
+
+let promise = new Promise((resolve, reject) => {
+
+
+    setTimeout(() => {
+        let fees = true
+
+        if (fees) {
+            resolve("Paid")
+        } else {
+            reject("Unpaid")
+        }
+
+    }, 3000)
+
+})
+
+
+// promise.then((result) => {
+//     console.log(result);
 // })
+
+//     .catch((error) => {
+//         console.log(error);
+//     })
+
+// setTimeout(() => {
+//     console.log(promise);
+
+// }, 5000)
+
+
+
+
+
+
+function riding() {
+
+    return new Promise(function (resolve) {
+        resolve("Rode it")
+
+    })
+
+}
+
+
+function reading() {
+
+    return new Promise(function (resolve) {
+
+        resolve("Done reading")
+
+    })
+
+}
+
+
+function gymclass() {
+
+    return new Promise(function (resolve) {
+        resolve("Attended")
+
+    })
+
+}
+
+// riding().then(function (result) {
+//     console.log(result);
+//     return reading();
+
+// })
+// .then(function (result) {
+//         console.log(result);
+//         return gymclass();
+//     })
+// .then(function (result) {
+
+//         console.log(result);
+
+//     })
+// .catch(function (error){
+//     console.log(error);
+
+// })
+
+
+
+
+async function finalResult() {
+
+    let result1 = await riding();
+    console.log(result1);
+
+
+    let result2 = await reading();
+    console.log(result2);
+
+
+    let result3 = await gymclass();
+    console.log(result3);
+
+}
+
+finalResult();
